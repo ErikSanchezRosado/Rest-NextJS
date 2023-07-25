@@ -4,6 +4,7 @@ import Head from "next/head";
 import Barra from "../app/Complementos/Barra"
 import Contenido from "./Complementos/Contenido"
 import Cartas from "./Complementos/Cartas"
+import caracteristicas from './Complementos/Caracteristicas';
 import Final from "./Complementos/Final"
 import restaurant2 from "../imagenes/restaurant2.jpeg";
 import restaurant3 from "../imagenes/restaurant3.jpg";
@@ -13,6 +14,7 @@ import panuchos from "../imagenes/panucho.jpg";
 import morcilla from "../imagenes/morcilla.jpg";
 import styles from "./styles.module.css";
 import { info } from "console";
+import Caracteristicas from './Complementos/Caracteristicas';
 
 export default function Home() {
     return (
@@ -31,8 +33,10 @@ export default function Home() {
 
             <Barra />
             <Contenido />
-            <Final />
             <Cartas />
+            <Caracteristicas />
+            <Final />
+            
         </>
     );
 }

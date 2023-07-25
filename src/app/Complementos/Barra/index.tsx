@@ -11,7 +11,7 @@ import { info } from "console";
 
 const Barra = () => {
     return (
-<nav>
+<nav className="bg-nav py-2 px-4">
                 <a href="#carta-rest">Informacion</a>
                 <a href="#nuestros-programas">Carta</a>
                 <a href="#caracteristicas">Sistema</a>

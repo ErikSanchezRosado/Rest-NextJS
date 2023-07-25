@@ -24,20 +24,8 @@ const Contenido = () => {
                 </div>
             </section>
 
-            <section id="caracteristicas">
-                <div className="container">
-                    <ul>
-                        <li>✔️ 100% higiene</li>
-                        <li>✔️ Reservaciones</li>
-                        <li>✔️ Asistencia personalizada</li>
-                        <li>✔️ Personal Calificado</li>
-                    </ul>
-                </div>
-            </section>
-            <section id="final">
-                <h2>Listo para disfrutar?</h2>
-                <button>Ven ya!</button>
-            </section></>
+            
+            </>
 
 
 
